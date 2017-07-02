@@ -1,0 +1,10 @@
+package threadclasses;
+
+public class sample3 {
+	public static void main(String[] args) {
+		Thread t=new Thread();
+		System.out.println(t);
+		System.out.println(t.currentThread());
+	}
+
+}

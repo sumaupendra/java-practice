@@ -1,0 +1,17 @@
+package threadclasses;
+
+public class sample {
+	public static void main(String[] args) {
+		Reserve r=new Reserve(1);
+		Thread t1=new Thread(r);
+		Thread t2=new Thread(r);
+		Thread t3=new Thread(r);
+		t1.setName("sama");
+		t2.setName("suma");
+		t3.setName("reddy");
+		t1.start();
+		t2.start();
+		t3.start();
+	}
+
+}
